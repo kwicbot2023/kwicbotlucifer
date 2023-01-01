@@ -31,7 +31,7 @@ AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001769691298")
 CHANNELS = [int(ch) if search.search(ch) else ch for ch in os.environ.get("CHANNELS", "-1001686640034").split()]
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001620413958")
 GET_FILECHANNEL = os.environ.get("GET_FILECHANNEL", "-1001480651413")
-FILTER_DEL_SECOND = int(os.environ.get("FILTER_DEL_SECOND", "600"))
+FILTER_DEL_SECOND = int(os.environ.get("FILTER_DEL_SECOND", "1800"))
 
 # AutoFilter
 AUTH_GROUPS = os.environ.get("AUTH_GROUPS", "")
